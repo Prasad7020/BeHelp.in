@@ -19,3 +19,8 @@ document.querySelectorAll('.quick-look-card').forEach(card => {
         }
     });
 });
+
+document.querySelector('.navbar-toggle').addEventListener('click', function() {
+    document.querySelector('.navbar-links').classList.toggle('active');
+});
+
